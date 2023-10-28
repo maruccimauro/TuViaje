@@ -1,0 +1,105 @@
+/**
+* section-offer.css
+* 
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 03-10-2023
+* #last important update by [maruccimauro] at 4/10/2023
+* #last important update by [] at ##-##-####
+*/
+
+/* GENERAL SECTION ************************************
+    [section-offer.css] BUILDER 
+ *********************************************/
+.article-ticket-offer {
+    margin-bottom: 5rem;
+}
+
+.article-ticket-offer:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(98, 98, 98, 0.01) 0%,
+        rgba(0, 4, 255, 0.15) 40%,
+        rgba(98, 98, 98, 0.01) 80%
+    );
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-ticket-offer-body] BUILDER 
+ *********************************************/
+.article-ticket-offer-body {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 1rem;
+    overflow-y: hidden;
+}
+
+.article-ticket-offer-body-card {
+    min-width: min(280px, 95vw);
+    min-height: 312px;
+    padding: 0rem 0.1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 120ms;
+    -webkit-transition: transform 120ms;
+    -moz-transition: transform 120ms;
+    -ms-transition: transform 120ms;
+    -o-transition: transform 120ms;
+}
+.article-ticket-offer-body-card:hover {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.article-ticket-offer-body-anchor {
+    color: white;
+}
+.article-ticket-offer-body-country {
+    font-weight: bold;
+}
+
+.article-ticket-offer-offert {
+    opacity: 50%;
+    width: 30%;
+    color: red;
+    background-color: white;
+    align-self: end;
+}
+
+/*! atention , selector decentralized by adjacent Pseudoclass */
+.article-ticket-offer-body-card:hover .article-ticket-offer-offert {
+    opacity: 100%;
+}
+
+@media (max-width: 412px) {
+    .article-ticket-offer-body-card {
+        min-height: 100vw;
+    }
+}

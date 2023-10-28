@@ -1,0 +1,107 @@
+[
+    {
+        "id": 0,
+        "country": "China",
+        "city": "Beijing",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect0.jpeg"
+    },
+    {
+        "id": 1,
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect1.jpeg"
+    },
+    {
+        "id": 2,
+        "country": "Spain",
+        "city": "Madrid",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect2.jpeg"
+    },
+    {
+        "id": 3,
+        "country": "USA",
+        "city": "New York",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect3.jpeg"
+    },
+    {
+        "id": 4,
+        "country": "France",
+        "city": "Paris",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect4.jpeg"
+    },
+    {
+        "id": 5,
+        "country": "Italy",
+        "city": "Rome",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect5.jpeg"
+    },
+    {
+        "id": 6,
+        "country": "Germany",
+        "city": "Berlin",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect6.jpeg"
+    },
+    {
+        "id": 7,
+        "country": "Canada",
+        "city": "Toronto",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect7.jpeg"
+    },
+    {
+        "id": 8,
+        "country": "Australia",
+        "city": "Sydney",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect8.jpeg"
+    },
+    {
+        "id": 9,
+        "country": "Japan",
+        "city": "Tokyo",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect9.jpeg"
+    },
+    {
+        "id": 10,
+        "country": "Brazil",
+        "city": "Rio de Janeiro",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect10.jpeg"
+    },
+    {
+        "id": 11,
+        "country": "India",
+        "city": "New Delhi",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect11.jpeg"
+    },
+    {
+        "id": 12,
+        "country": "United Kingdom",
+        "city": "London",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect12.jpeg"
+    },
+    {
+        "id": 13,
+        "country": "South Africa",
+        "city": "Cape Town",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect13.jpeg"
+    },
+    {
+        "id": 14,
+        "country": "Mexico",
+        "city": "Mexico City",
+        "discount": 50,
+        "image": "./resources/images/section-ticket-offer/offer-tickect14.jpeg"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "country": "Venezuela",
+        "city": "San Benito",
+        "phone": "(456) 546-54452"
+    },
+    {
+        "country": "Colombia",
+        "city": "El Poblado",
+        "phone": "(123) 987-65432"
+    },
+    {
+        "country": "Argentina",
+        "city": "Barrio Norte",
+        "phone": "(789) 123-45678"
+    },
+    {
+        "country": "Perú",
+        "city": "Miraflores",
+        "phone": "(987) 654-32109"
+    },
+    {
+        "country": "Chile",
+        "city": "Providencia",
+        "phone": "(654) 321-09876"
+    },
+    {
+        "country": "México",
+        "city": "Centro",
+        "phone": "(321) 098-76543"
+    },
+    {
+        "country": "Brasil",
+        "city": "Ipanema",
+        "phone": "(111) 222-33333"
+    },
+
+    {
+        "country": "Italia",
+        "city": "Roma",
+        "phone": "(999) 888-77777"
+    },
+    {
+        "country": "Francia",
+        "city": "Le Marais",
+        "phone": "(777) 888-99999"
+    },
+    {
+        "country": "Japón",
+        "city": "Shibuya",
+        "phone": "(555) 444-33333"
+    },
+    {
+        "country": "Australia",
+        "city": "Sydney CBD",
+        "phone": "(123) 456-78910"
+    },
+    {
+        "country": "Reino Unido",
+        "city": "Westminster",
+        "phone": "(777) 888-99999"
+    },
+    {
+        "country": "Alemania",
+        "city": "Kreuzberg",
+        "phone": "(666) 555-44444"
+    },
+    {
+        "country": "España",
+        "city": "Gràcia",
+        "phone": "(222) 333-44455"
+    }
+]

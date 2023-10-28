@@ -1,0 +1,151 @@
+/**
+* section-flights.css
+*
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+ 
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 03-10-2023
+* #last important update by [maruccimauro] at 4/10/2023
+* #last important update by [] at ##-##-####
+*/
+/* GENERAL SECTION ************************************
+    [section-flights.css] BUILDER 
+ *********************************************/
+
+.article-flights {
+    font-family: "legends";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-standard-header] BUILDER 
+ *********************************************/
+.article-standard-header {
+    padding-bottom: 1rem;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-flights-body] BUILDER 
+ *********************************************/
+.article-flights-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+
+.article-flights-body-img-decoration {
+    width: 140px;
+    height: 50px;
+    margin: 0.5rem 0rem 5rem 0rem;
+}
+
+.article-flights-body-galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.article-flights-body-card {
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 10px 10px 95px rgba(30, 70, 200, 0.15);
+}
+
+.article-flights-body-card-information {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.article-flights-body-card-container-img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.article-flights-body-card-img {
+    height: 100%;
+    width: 100%;
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    -moz-transition: transform 500ms;
+    -ms-transition: transform 500ms;
+    -o-transition: transform 500ms;
+}
+
+/*! atention , selector decentralized by adjacent Pseudoclass */
+.article-flights-body-card:hover .article-flights-body-card-img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.article-flights-body-card-description {
+    text-indent: 1rem;
+    padding: 2rem 0.7rem 2rem 0.5rem;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.article-flights-body-card-readmore {
+    color: #0d2291;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 2rem;
+}
+
+.article-flights-body-card-readmore:hover {
+    color: rgba(4, 49, 247, 0.774);
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.288);
+}
+
+/* STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+@media screen and (max-width: 420px) {
+    .article-flights-body-card {
+        width: 100vw;
+        font-size: 0.9rem;
+    }
+    .article-flights-body-card-container-img {
+        height: 100vw;
+        overflow: hidden;
+    }
+    .article-hotels-body-information-calification {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .article-standard-tittle {
+        text-indent: 0.5rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+}

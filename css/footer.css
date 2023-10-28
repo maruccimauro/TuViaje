@@ -1,0 +1,166 @@
+/**
+* footer.css
+* 
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+        
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 03-10-2023
+* #last important update by [maruccimauro] at 5/10/2023
+* #last important update by [] at ##-##-####
+*/
+
+/* GENERAL SECCION ************************************
+    [footer] BUILDER 
+ *********************************************/
+
+#footer {
+    width: 100vw;
+    margin-top: 10rem;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+/* SUB SECTION ************************************
+    [footer header] BUILDER 
+ *********************************************/
+.footer-header {
+    width: 100%;
+    z-index: 1;
+
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-header-go-up-button {
+    width: 2.5rem;
+}
+
+/* SUB SECTION ************************************
+    [footer body] BUILDER 
+ *********************************************/
+
+.footer-body {
+    grid-area: footer-body;
+    font-family: "info";
+    background: linear-gradient(180deg, #1d4d8b 0%, #15235d 99%);
+    height: 500px;
+    color: white;
+    padding: 5rem 1rem 3rem 1rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "widget-1 widget-2 widget-3";
+}
+
+.footer-widget-branch-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-widget-web-link {
+    display: flex;
+    flex-direction: column;
+}
+.footer-widget-tittle {
+    text-indent: 1rem;
+}
+
+.footer-widget-contact-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-widget-web-link {
+    color: rgb(240, 219, 32);
+}
+
+.footer-widget-1 {
+    grid-area: widget-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-widget-2 {
+    grid-area: widget-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-widget-3 {
+    grid-area: widget-3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-widget-list-material-symbols {
+    align-self: flex-start;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-body {
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+    }
+    .footer-widget-branch-list {
+        gap: 0.5rem;
+    }
+    .footer-widget-contact-list {
+        gap: 0.5rem;
+    }
+    .footer-widget-web-link {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer-body {
+        background: linear-gradient(180deg, #1d4d8b 0%, #5d155d 99%);
+        padding: 1rem 0rem 0rem 0rem;
+        height: auto;
+        width: 100%;
+        background-color: rgb(29, 77, 139);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "widget-1"
+            "widget-2"
+            "widget-3";
+    }
+    .footer-body > [class*="widget"] {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 312px) {
+    .footer-widget-tittle {
+        text-align: center;
+    }
+    .footer-body {
+        font-size: 0.7rem;
+    }
+    .footer-widget-1 > ul > li,
+    .footer-widget-2 > ul > li,
+    .footer-widget-3 > ul > li {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,53 @@
+/**
+* section-standard.css
+* 
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+  
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 03-10-2023
+* #last important update by [maruccimauro] at 5/10/2023
+* #last important update by [] at ##-##-####
+*/
+
+/* GENERAL SECTION ************************************
+    [section-standard.css] BUILDER 
+ *********************************************/
+
+.section-standard {
+    color: #2d384c;
+    font-family: Roboto, sans-serif;
+    padding: 6rem 0.3rem;
+    width: 100%;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-standard-header] BUILDER 
+ *********************************************/
+.article-standard-header {
+    grid: header;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.article-standard-tittle {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-indent: 1rem;
+}

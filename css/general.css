@@ -1,0 +1,132 @@
+/**
+* general.css
+* #prepare standard and general structure of the web site styles
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+    [important]designed to accept a minimum responsiveness of up to 200px[important] 
+
+
+*/
+/*
+* #create at 03-10-2023
+* #last important update by [maruccimauro] at 5/10/2023
+* #last important update by [] at ##-##-####
+*/
+/*
+* 
+*  ************************* PROJECT CSS CONVENTION *************************
+* -When updating, the incorporation and modification of comments must be respected.
+* -use lowercase for selector names.
+* -header areas must be respected per comment.
+* -should be used middle dash "-" to separate words.
+* -should be used "animation-" prefix to create animation name.
+* -should be used double middle dash "--" separator to create animation name when separating child selectors.
+* -should be used the suffix separator ("with-" + PseudoElement) to create the name of the animation if its destination is a PseudoElement.
+* -should be used the suffix separator ("on-" + PseudoClass) to create the name of the animation if its destination is a PseudoClass.
+* -This is not a project developed through a template, do not use !important. do NOT USE this.
+* -The supplier prefix should be used for those properties that require it.
+* -Layer notation should be used for Z-index values.
+* -ms scale should be used for transitions and animations
+* -active communication must be maintained
+* 
+*
+*
+* ************************* SEMANTIC ORDER OF PROPERTIES  *************************
+*            [If you can adopt a semantic order, your colleagues will thank you.]
+*
+* -The order of properties
+*                -Grid Section properties
+*                -Display Section properties
+*                -Box integrity properties
+*                -Set of Dimensions properties
+*                -Internal Spacing and external Spacing properties
+*                -border and outlines properties
+*                -decoration properties
+*                -transform properties
+*                -animation properties
+*                -others not contemplated
+*/
+
+/* PREPARE PRIMARY NODE ************************************
+    [general.css] PRIMARY NODE BUILDER 
+ *********************************************/
+
+/* PREPARE SECTION ************************************
+    @font-face BUILDER 
+ *********************************************/
+@font-face {
+    font-family: "info";
+    src: url("../resources/fonts/Goldman-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Logo";
+    src: url("../resources/fonts/AlfaSlabOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "legends";
+    src: url("../resources/fonts/Mina-Regular.ttf");
+}
+
+@font-face {
+    font-family: "special";
+    src: url("../resources/fonts/IndieFlower-Regular.ttf");
+}
+
+@font-face {
+    font-family: "detail";
+    src: url("../resources/fonts/YsabeauSC-VariableFont_wght.ttf");
+}
+
+/* PREPARE SECTION ************************************
+    GLOBALs vars and GLOBALs asignations BUILDER 
+ *********************************************/
+
+:root {
+    --cursor: url("../resources/cursor/Yellow_cursor.png"), default;
+    --cursor-draggable: url("../resources/cursor/Yellow_drag.png"), default;
+    --cursor-anchor: url("../resources/cursor/Yellow_pointer.png"), pointer;
+    cursor: var(--cursor);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    user-select: none;
+}
+
+a {
+    cursor: var(--cursor-anchor);
+}
+
+/* GENERAL SECTION ************************************
+    general BUILDER 
+ *********************************************/
+.pseudobody {
+    font-display: flex;
+    flex-direction: column;
+    min-width: none;
+}
+
+.draggable {
+    cursor: var(--cursor-draggable);
+}
+
+/* STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+
+@media screen and (max-width: 420px) {
+    body {
+        font-size: 0.8rem;
+    }
+}

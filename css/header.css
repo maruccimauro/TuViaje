@@ -1,0 +1,356 @@
+/**
+* header.css
+* 
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 03-10-2023
+* #last important update by [maruccimauro] at 5/10/2023
+* #last important update by [] at ##-##-####
+*/
+/* GENERAL SECTION ************************************
+    [header.css] BUILDER 
+ *********************************************/
+#header {
+    width: 100%;
+    background-color: rgb(29, 77, 139);
+    display: grid;
+    grid-template-rows: 64px 600px 64px;
+    grid-template-areas:
+        "upper-header"
+        "middle-header"
+        "lower-header";
+}
+
+/* GENERAL SUB SECTION ************************************
+    [upper-header] BUILDER 
+ *********************************************/
+#upper-header {
+    grid-area: upper-header;
+    display: grid;
+    grid-template-columns: 300px 5fr 1fr;
+    grid-template-areas: "logo navbar login";
+}
+
+/*logo GRID*/
+#upper-header-logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 0.5rem;
+    background-position-y: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    animation-name: animation-upper-header-logo;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    background-position-x: -200px;
+    transition: 500ms all;
+    -webkit-transition: 500ms all;
+    -moz-transition: 500ms all;
+    -ms-transition: 500ms all;
+    -o-transition: 500ms all;
+}
+
+.header-logo-text {
+    position: relative;
+    top: -50px;
+    font-size: 1rem;
+    font-family: "logo";
+    font-weight: 100;
+    padding-left: 1rem;
+    color: white;
+    animation-name: animation-header-logo-text;
+    animation-duration: 4000ms;
+    animation-delay: 1500ms;
+    animation-timing-function: cubic-bezier(0.33, 0.92, 0.81, -0.26);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/*navbar GRID*/
+#upper-header-navbar {
+    grid-area: navbar;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item-anchor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 1rem 0.5rem 1rem;
+    color: white;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+    -moz-transition: 100ms;
+    -ms-transition: 100ms;
+    -o-transition: 100ms;
+}
+
+.nav-item-anchor:hover {
+    background-color: #163a68;
+}
+
+/*login GRID*/
+#upper-header-login {
+    grid-area: login;
+    display: flex;
+    justify-content: center;
+}
+
+/* PREPARE KEYFRAMES SUB SECTION ************************************/
+
+@keyframes animation-upper-header-logo {
+    0% {
+        background-image: url("../resources/images/header_section/air_plane_logo.png");
+        background-position-x: -100px;
+    }
+    70% {
+        background-position-y: -50px;
+    }
+    85% {
+        background-position-y: -90px;
+    }
+    93% {
+    }
+    100% {
+        background-position-x: 400px;
+    }
+}
+
+@keyframes animation-header-logo-text {
+    0% {
+        top: -50px;
+        text-decoration: underline;
+    }
+    50% {
+        transform: rotate(5deg);
+        top: 0px;
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+    }
+    55% {
+        top: -10px;
+    }
+    60% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    65% {
+        top: -5px;
+    }
+    70% {
+        transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+    }
+    75% {
+        top: -3px;
+    }
+    80% {
+        top: 0px;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        text-decoration: underline;
+    }
+
+    100% {
+        text-decoration: none;
+        top: 0px;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+}
+
+/* GENERAL SUB SECTION ************************************
+    [middle-header] BUILDER 
+ *********************************************/
+#middle-header {
+    grid-area: middle-header;
+    background-image: url("../resources/images/header_section/middle-header-background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: local;
+    animation-name: animation-middle-header-background;
+    animation-timing-function: linear;
+    animation-duration: 100000ms;
+    animation-iteration-count: infinite;
+}
+
+.middle-header-effect {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgb(21, 140, 186) 0%,
+        rgba(0, 49, 255, 0) 5%
+    );
+}
+
+.middle-header-effect {
+    user-select: none;
+    color: rgb(21, 140, 186);
+}
+.middle-header-search {
+    display: flex;
+    align-items: center;
+}
+.middle-header-search a {
+    display: flex;
+    align-items: center;
+}
+
+/*! atention , selector decentralized by adjacent Pseudoclass */
+.middle-header-search:hover .middle-header-search-input {
+    opacity: 100%;
+
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.middle-header-search-input {
+    opacity: 15%;
+    margin-left: 1.1rem;
+    transition: opacity 100ms, transform 100ms;
+    -webkit-transition: opacity 100ms, transform 100ms;
+    -moz-transition: opacity 100ms, transform 100ms;
+    -ms-transition: opacity 100ms, transform 100ms;
+    -o-transition: opacity 100ms, transform 100ms;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+/* PREPARE KEYFRAMES SUB SECTION ************************************/
+
+@keyframes animation-middle-header-background {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: -4096px;
+    }
+}
+
+/* GENERAL SUB SECTION ************************************
+    [lower-header] BUILDER 
+ *********************************************/
+#lower-header {
+    grid-area: lower-header;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+/* STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+@media screen and (min-width: 1025px) {
+    .nav-item-anchor:hover {
+        background: linear-gradient(
+            359deg,
+            rgba(183, 0, 255, 0.55) 0%,
+            rgba(0, 49, 255, 0) 80%
+        );
+    }
+}
+
+@media (max-width: 412px) {
+}
+
+@media (max-width: 1024px) {
+    #upper-header {
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+    #upper-header-logo {
+        background-image: none;
+    }
+
+    .nav-item-text {
+        display: none;
+    }
+}
+
+/* NOT STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+
+/* media for upper-header prevent rupture*/
+@media (max-width: 580px) {
+    #header {
+        width: 100%;
+        background-color: rgb(29, 77, 139);
+        display: grid;
+        grid-template-rows: auto 400px 1fr;
+        grid-template-areas:
+            "upper-header"
+            "middle-header"
+            "lower-header";
+        flex-direction: row-reverse;
+    }
+
+    #upper-header {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "logo"
+            "navbar"
+            "login";
+    }
+    #upper-header-logo {
+        justify-content: center;
+        padding: 0.5rem 0rem;
+    }
+    #upper-header-navbar {
+        flex-grow: 1;
+    }
+    .nav-item-anchor {
+        padding: 0.5rem 0rem;
+        width: 100%;
+    }
+
+    .middle-header-search-input {
+        max-width: 50vw;
+    }
+}

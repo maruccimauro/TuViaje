@@ -1,0 +1,148 @@
+/**
+* section-flights.css
+*
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+ 
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 20-10-2023
+* #last important update by [maruccimauro] at 20/10/2023
+* #last important update by [] at ##-##-####
+*/
+
+/* GENERAL SECTION ************************************
+    [section-assistence.css] BUILDER 
+ *********************************************/
+
+/* GENERAL SUB SECTION ************************************
+    [article-assistance-entrance] BUILDER 
+ *********************************************/
+
+.article-assistance-entrance-img {
+    width: 100vw;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-assistance-creditcard] BUILDER 
+ *********************************************/
+
+.article-assistance-creditcard {
+    display: flex;
+    margin: 3rem 0rem 3rem 0rem;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-assistance-services] BUILDER 
+ *********************************************/
+
+.article-assistance-services {
+    display: flex;
+    margin-top: 15rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.article-assistance-services-item {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+
+.article-assistance-services-item:hover::before {
+    font-family: "detail";
+    color: rgb(1, 0, 82);
+    content: "contratar";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.article-assistance-services-tittle {
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.article-assistance-services-summary {
+    align-self: center;
+}
+
+.article-assistance-services-medal-anchor {
+    display: flex;
+    justify-content: center;
+}
+.article-assistance-services-medal {
+    position: relative;
+    height: 400px;
+    background-position: center;
+}
+
+.article-assistance-services-list {
+    margin-left: 3rem;
+}
+
+.article-assistance-entrance {
+    text-align: center;
+}
+
+.article-assistance-entrance iframe {
+    max-width: 90vw;
+    max-height: 56vw;
+}
+/* STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+@media (max-width: 1024px) {
+    .article-assistance-services-medal {
+        max-width: 250px;
+        max-height: 250px;
+        width: 50vw;
+        height: 50vw;
+    }
+    .article-assistance-services-list {
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 412px) {
+    .article-assistance-services-medal {
+        max-width: 250px;
+        max-height: 250px;
+        width: 50vw;
+        height: 50vw;
+    }
+    .article-assistance-services-list {
+        margin-left: 1rem;
+    }
+    .article-assistance-services {
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,218 @@
+[
+    {
+        "id": 0,
+        "country": "Brazil",
+        "city": "Rio de Janeiro",
+        "nextFlight": 14,
+        "image": "./resources/images/section-flights/section-flights0.jpg",
+        "content": "Disfruta de la belleza natural y la animada cultura de Rio de Janeiro. Rio de Janeiro, conocida como la Ciudad Maravillosa, es un destino espectacular en Brasil. El Cristo Redentor, con sus brazos abiertos, ofrece vistas panorámicas de la ciudad y las playas. Copacabana e Ipanema son famosas por su arena dorada y sus vibrantes escenas de playa. La samba es el latido del corazón de la ciudad, y podrás disfrutar de la música y la danza en los clubes de samba y durante el Carnaval. La comida brasileña es una mezcla de sabores, con platos como el feijoada y las caipirinhas que te transportarán al alma de Brasil."
+    },
+    {
+        "id": 1,
+        "country": "Argentina",
+        "city": "Córdoba",
+        "nextFlight": 9,
+        "image": "./resources/images/section-flights/section-flights1.jpg",
+        "content": "Descubre la belleza de Córdoba, una ciudad llena de historia y cultura. Córdoba, la segunda ciudad más grande de Argentina, es conocida por su rica herencia colonial y sus impresionantes paisajes naturales. Fundada en 1573, esta ciudad tiene una larga historia que se refleja en su arquitectura y sitios históricos. Las Sierras de Córdoba ofrecen oportunidades para el senderismo, la observación de aves y la aventura al aire libre. Además, la ciudad alberga numerosas universidades y es un importante centro cultural y artístico en Argentina, con una escena musical y teatral vibrante."
+    },
+    {
+        "id": 2,
+        "country": "Spain",
+        "city": "Barcelona",
+        "nextFlight": 7,
+        "image": "./resources/images/section-flights/section-flights2.jpg",
+        "content": "Barcelona te espera con su arquitectura única, playas hermosas y una vida nocturna vibrante. Barcelona, la capital de Cataluña, es una ciudad que combina a la perfección la tradición y la modernidad. La arquitectura de Antoni Gaudí, como la Sagrada Familia y el Parque Güell, es verdaderamente impresionante. Las playas de Barcelona ofrecen un lugar relajante para tomar el sol y disfrutar del mar Mediterráneo. La ciudad también es famosa por su vida nocturna, con bares y clubes que se mantienen abiertos hasta altas horas de la madrugada. Además, la gastronomía catalana es exquisita, con platos como la paella y las tapas que te dejarán con ganas de más."
+    },
+    {
+        "id": 3,
+        "country": "France",
+        "city": "Paris",
+        "nextFlight": 11,
+        "image": "./resources/images/section-flights/section-flights3.jpg",
+        "content": "La Ciudad de la Luz te invita a enamorarte de sus monumentos icónicos como la Torre Eiffel y el Louvre. París, la capital de Francia, es una de las ciudades más románticas del mundo. La Torre Eiffel se alza majestuosamente sobre la ciudad, ofreciendo vistas impresionantes. El Museo del Louvre alberga algunas de las obras maestras artísticas más famosas, como la Mona Lisa. Pasear a lo largo del río Sena y explorar encantadores barrios como Montmartre te sumergirá en la auténtica atmósfera parisina. La gastronomía francesa es de renombre mundial, con croissants, vinos y quesos deliciosos que deleitarán tu paladar."
+    },
+    {
+        "id": 4,
+        "country": "Italy",
+        "city": "Rome",
+        "nextFlight": 4,
+        "image": "./resources/images/section-flights/section-flights4.jpg",
+        "content": "Explora la eterna ciudad de Roma, llena de historia y cultura. Roma, la capital de Italia, es un tesoro de la antigüedad y la historia. El Coliseo, un anfiteatro romano icónico, es un testimonio de la grandeza del Imperio Romano. El Vaticano, con la Basílica de San Pedro y la Capilla Sixtina, es un destino sagrado para millones de personas. La gastronomía italiana es una delicia, con platos como la pasta, la pizza y el gelato que satisfacen cualquier antojo. Pasear por las calles empedradas de Roma te llevará a descubrimientos inesperados en cada esquina."
+    },
+    {
+        "id": 5,
+        "country": "Japan",
+        "city": "Tokyo",
+        "nextFlight": 8,
+        "image": "./resources/images/section-flights/section-flights5.jpg",
+        "content": "Descubre la metrópolis de Tokyo, donde la tradición se combina con la tecnología moderna. Tokyo, la capital de Japón, es una ciudad fascinante que combina lo antiguo y lo nuevo. El Templo Senso-ji en Asakusa es un símbolo de la espiritualidad japonesa, mientras que los rascacielos y la tecnología de vanguardia en el distrito de Shinjuku muestran la modernidad de la ciudad. La comida en Tokyo es una experiencia única, desde sushi fresco en Tsukiji hasta platos callejeros en el mercado de Ameya-Yokocho. Sumérgete en la cultura japonesa a través de festivales, museos y jardines tradicionales."
+    },
+    {
+        "id": 6,
+        "country": "Australia",
+        "city": "Sydney",
+        "nextFlight": 6,
+        "image": "./resources/images/section-flights/section-flights6.jpg",
+        "content": "Visita Sydney y enamórate de sus icónicos lugares como la Ópera de Sídney y el Puente del Puerto. Sydney, la ciudad más grande de Australia, es un destino imprescindible en Oceanía. La Ópera de Sídney es un hito arquitectónico y artístico que se alza junto al hermoso puerto. El Puente del Puerto de Sydney ofrece vistas panorámicas espectaculares. Las playas doradas, como Bondi Beach y Manly Beach, son ideales para relajarse y hacer surf. La vida costera de Sydney es relajada y vibrante, con una variedad de restaurantes y bares que ofrecen mariscos frescos y entretenimiento en vivo."
+    },
+    {
+        "id": 7,
+        "country": "Greece",
+        "city": "Athens",
+        "nextFlight": 3,
+        "image": "./resources/images/section-flights/section-flights7.jpg",
+        "content": "Explora Atenas, la cuna de la civilización occidental. Atenas, la capital de Grecia, es una ciudad con una rica historia que se remonta a miles de años. El Partenón, ubicado en la Acrópolis, es un antiguo templo griego que simboliza la grandeza de la antigua Grecia. La gastronomía griega es deliciosa, con platos como el moussaka, el souvlaki y el yogur griego. Además, la ciudad ofrece una mezcla de lo antiguo y lo moderno, con barrios tradicionales y una escena artística contemporánea en constante crecimiento."
+    },
+    {
+        "id": 8,
+        "country": "Mexico",
+        "city": "Cancún",
+        "nextFlight": 12,
+        "image": "./resources/images/section-flights/section-flights8.jpg",
+        "content": "Disfruta de las hermosas playas de Cancún y explora la rica cultura maya. Cancún, en la costa caribeña de México, es famoso por sus playas de arena blanca y aguas turquesas. Los amantes de la naturaleza pueden explorar la belleza de la Riviera Maya y visitar sitios arqueológicos mayas como Tulum y Chichén Itzá. La vida nocturna en Cancún es animada, con discotecas y bares en la zona de la Zona Hotelera. La gastronomía mexicana te espera con deliciosos tacos, guacamole y margaritas."
+    },
+    {
+        "id": 9,
+        "country": "Thailand",
+        "city": "Bangkok",
+        "nextFlight": 10,
+        "image": "./resources/images/section-flights/section-flights9.jpg",
+        "content": "Descubre la vibrante ciudad de Bangkok, donde se combinan la tradición y la modernidad. Bangkok, la capital de Tailandia, es conocida por sus templos budistas ornamentados, como el Wat Pho y el Wat Arun. La comida tailandesa es famosa en todo el mundo, con platos como el pad thai y el curry verde que te tentarán. Los mercados y centros comerciales ofrecen oportunidades de compras únicas, mientras que la vida nocturna en Bangkok es animada y diversa. Explora el casco antiguo de la ciudad y sus canales para experimentar la auténtica cultura tailandesa."
+    },
+    {
+        "id": 10,
+        "country": "Canada",
+        "city": "Toronto",
+        "nextFlight": 15,
+        "image": "./resources/images/section-flights/section-flights10.jpg",
+        "content": "Descubre la diversidad cultural de Toronto y sus impresionantes rascacielos. Toronto, la ciudad más grande de Canadá, es un crisol de culturas. Puedes explorar barrios étnicos como Chinatown y Little Italy. La Torre CN es un símbolo icónico de la ciudad y ofrece vistas panorámicas. Además, Toronto es famosa por su escena artística y teatral, con el Distrito de Entretenimiento de Toronto como epicentro. La comida en Toronto es variada, desde platos internacionales hasta poutine canadiense."
+    },
+    {
+        "id": 11,
+        "country": "South Africa",
+        "city": "Cape Town",
+        "nextFlight": 13,
+        "image": "./resources/images/section-flights/section-flights11.jpg",
+        "content": "Explora la belleza natural de Ciudad del Cabo y su rica historia. Ciudad del Cabo, en Sudáfrica, es conocida por su entorno escénico, con la Montaña de la Mesa y las playas de arena dorada. El Jardín Botánico Kirstenbosch es un paraíso para los amantes de la naturaleza. Además, la ciudad tiene una rica herencia colonial y sitios históricos como el Fuerte de Buena Esperanza. La comida sudafricana es una delicia, con platos como el bobotie y el biltong que te harán agua la boca."
+    },
+    {
+        "id": 12,
+        "country": "United Kingdom",
+        "city": "London",
+        "nextFlight": 10,
+        "image": "./resources/images/section-flights/section-flights12.jpg",
+        "content": "Descubre la capital del Reino Unido, Londres, y sus monumentos icónicos. Londres es una ciudad llena de historia y cultura. El Palacio de Buckingham, el Big Ben y el Museo Británico son lugares emblemáticos que no te puedes perder. Los parques reales como Hyde Park ofrecen espacios verdes para relajarse. La escena teatral de Londres es famosa en todo el mundo, con el West End como epicentro. La comida británica, incluyendo fish and chips, es parte de la experiencia londinense."
+    },
+    {
+        "id": 13,
+        "country": "India",
+        "city": "New Delhi",
+        "nextFlight": 12,
+        "image": "./resources/images/section-flights/section-flights13.jpg",
+        "content": "Explora la rica cultura y la historia de Nueva Delhi, la capital de la India. Nueva Delhi es una ciudad llena de contrastes, con antiguos monumentos y modernos rascacielos. El Fuerte Rojo y el Templo de Loto son ejemplos de su patrimonio arquitectónico. La comida india es una explosión de sabores, con platos como el curry y el tandoori que despiertan tus sentidos. La ciudad también es un centro político y cultural importante en la India."
+    },
+    {
+        "id": 14,
+        "country": "Egypt",
+        "city": "Cairo",
+        "nextFlight": 15,
+        "image": "./resources/images/section-flights/section-flights14.jpg",
+        "content": "Descubre la historia antigua de El Cairo y las icónicas pirámides de Egipto. El Cairo, la capital de Egipto, es un destino lleno de misterio y antigüedad. Las pirámides de Giza, incluyendo la Gran Pirámide de Keops, son maravillas arquitectónicas. El Museo Egipcio alberga tesoros faraónicos, incluyendo el oro de Tutankamón. La comida egipcia te llevará a un viaje culinario con platos como el falafel y el koshari. Además, pasear por las calles de El Cairo es una experiencia única."
+    },
+    {
+        "id": 15,
+        "country": "Peru",
+        "city": "Lima",
+        "nextFlight": 9,
+        "image": "./resources/images/section-flights/section-flights15.jpg",
+        "content": "Descubre la rica gastronomía y la historia de Lima, la capital de Perú. Lima es conocida como la capital gastronómica de América del Sur. Puedes disfrutar de platos peruanos como el ceviche, el lomo saltado y el ají de gallina. La ciudad también tiene un patrimonio histórico, con sitios como el Convento de San Francisco y la Plaza Mayor. Lima es una ciudad vibrante con una escena cultural en constante crecimiento."
+    },
+    {
+        "id": 16,
+        "country": "Portugal",
+        "city": "Lisbon",
+        "nextFlight": 9,
+        "image": "./resources/images/section-flights/section-flights16.jpg",
+        "content": "Explore the charming city of Lisbon, Portugal's capital. Lisbon, located on the western Iberian Peninsula, is known for its colorful neighborhoods and historic architecture. The Belem Tower and Jeronimos Monastery are iconic landmarks. Lisbon is famous for its delicious pastries, such as pastéis de nata, and traditional dishes like bacalhau. The city's Fado music and vibrant street life make it a unique and captivating destination."
+    },
+    {
+        "id": 17,
+        "country": "Sweden",
+        "city": "Stockholm",
+        "nextFlight": 11,
+        "image": "./resources/images/section-flights/section-flights17.jpg",
+        "content": "Discover the beauty of Stockholm, the capital of Sweden. Stockholm is a city spread across 14 islands, connected by bridges and ferries. The Old Town, or Gamla Stan, is a charming area with cobblestone streets and colorful buildings. The Vasa Museum displays a perfectly preserved 17th-century warship. Swedish cuisine offers delights like meatballs, herring, and cinnamon buns. Stockholm's rich cultural scene includes museums, theaters, and music festivals."
+    },
+    {
+        "id": 18,
+        "country": "Turkey",
+        "city": "Istanbul",
+        "nextFlight": 13,
+        "image": "./resources/images/section-flights/section-flights18.jpg",
+        "content": "Explore the vibrant city of Istanbul, where East meets West. Istanbul is a city that straddles two continents, Europe and Asia. It's known for its historic sites, including Hagia Sophia, the Blue Mosque, and the Topkapi Palace. Turkish cuisine is a delight, with dishes like kebabs, baklava, and Turkish delight. The Grand Bazaar is a must-visit for shopping enthusiasts. Experience the unique blend of cultures in this bustling metropolis."
+    },
+    {
+        "id": 19,
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "nextFlight": 7,
+        "image": "./resources/images/section-flights/section-flights19.jpg",
+        "content": "Experience the picturesque city of Amsterdam, with its famous canals and historic charm. Amsterdam is known for its artistic heritage, with museums like the Rijksmuseum and the Van Gogh Museum. The city's iconic canals and narrow houses are a delight to explore. Dutch cuisine features dishes like herring, Dutch pancakes, and stroopwafels. Amsterdam's vibrant nightlife and cultural events make it a lively destination."
+    },
+    {
+        "id": 20,
+        "country": "New Zealand",
+        "city": "Auckland",
+        "nextFlight": 10,
+        "image": "./resources/images/section-flights/section-flights20.jpg",
+        "content": "Discover the natural beauty of Auckland, New Zealand's largest city. Auckland is known for its stunning landscapes, including the iconic Sky Tower and the Waitematā Harbour. It's a gateway to exploring New Zealand's North Island. Enjoy the city's diverse culinary scene, with seafood, Māori cuisine, and innovative Kiwi dishes. Auckland offers a blend of outdoor adventures and urban experiences."
+    },
+    {
+        "id": 21,
+        "country": "Switzerland",
+        "city": "Zurich",
+        "nextFlight": 8,
+        "image": "./resources/images/section-flights/section-flights21.jpg",
+        "content": "Explore Zurich, the largest city in Switzerland, known for its picturesque Old Town and global finance hub. Zurich is surrounded by the stunning Swiss Alps and offers opportunities for hiking, skiing, and outdoor activities. Swiss cuisine features dishes like fondue and chocolate. The city's cultural scene is vibrant, with world-class museums, galleries, and theaters. Zurich is a perfect blend of tradition and modernity."
+    },
+    {
+        "id": 22,
+        "country": "Austria",
+        "city": "Vienna",
+        "nextFlight": 9,
+        "image": "./resources/images/section-flights/section-flights22.jpg",
+        "content": "Experience the musical and cultural heritage of Vienna, Austria's capital. Vienna is famous for its classical music, with composers like Mozart and Beethoven having lived and worked in the city. The historic center is a UNESCO World Heritage site, featuring landmarks like the Hofburg Palace and St. Stephen's Cathedral. Austrian cuisine offers delightful pastries, schnitzel, and coffeehouse culture. Vienna is a city of elegance and charm."
+    },
+    {
+        "id": 23,
+        "country": "China",
+        "city": "Shanghai",
+        "nextFlight": 12,
+        "image": "./resources/images/section-flights/section-flights23.jpg",
+        "content": "Discover the dynamic city of Shanghai, a global financial hub and cultural hotspot. Shanghai is known for its futuristic skyline and historic neighborhoods. The Bund, a waterfront promenade, offers spectacular views of the city's iconic skyscrapers. Chinese cuisine in Shanghai is diverse, with dishes like xiaolongbao and scallion pancakes. Explore traditional Chinese gardens and vibrant street markets in this exciting metropolis."
+    },
+    {
+        "id": 24,
+        "country": "Russia",
+        "city": "Moscow",
+        "nextFlight": 10,
+        "image": "./resources/images/section-flights/section-flights24.jpg",
+        "content": "Experience the grandeur of Moscow, the capital of Russia, with its iconic Red Square and historic landmarks. Moscow is known for its rich history and cultural heritage. The Red Square is home to the Kremlin, St. Basil's Cathedral, and Lenin's Mausoleum. Russian cuisine offers dishes like borscht, pelmeni, and blini. Moscow's theaters, museums, and art galleries showcase the country's artistic achievements."
+    },
+    {
+        "id": 25,
+        "country": "Chile",
+        "city": "Santiago",
+        "nextFlight": 8,
+        "image": "./resources/images/section-flights/section-flights25.jpg",
+        "content": "Explore Santiago, the capital of Chile, surrounded by the Andes Mountains. Santiago is known for its stunning natural backdrop, with the Andes providing a dramatic setting. The city's historic center features landmarks like the Metropolitan Cathedral and the Plaza de Armas. Chilean cuisine offers dishes like empanadas, pastel de choclo, and seafood. Santiago is a gateway to discovering Chile's diverse landscapes and wine regions."
+    },
+    {
+        "id": 26,
+        "country": "South Africa",
+        "city": "Cape Town",
+        "nextFlight": 10,
+        "image": "./resources/images/section-flights/section-flights26.jpg",
+        "content": "Explore the beauty of Cape Town, a coastal city in South Africa. Cape Town is known for its stunning natural landscapes, including Table Mountain and the Cape of Good Hope. The city offers diverse activities, from wine tasting in Stellenbosch to penguin watching in Boulders Beach. South African cuisine features dishes like bobotie, braai, and malva pudding. Cape Town is a vibrant and multicultural destination."
+    }
+]

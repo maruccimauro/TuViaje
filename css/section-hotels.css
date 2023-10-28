@@ -1,0 +1,358 @@
+/**
+* section-flights.css
+*
+* #Section Build By 
+
+                    if u like talk to me for any proyect tell  :-)
+
+[                MARUCCI MAURO   https://github.com/maruccimauro                  ]
+
+       ¡Thanks!🙂
+
+ 
+
+
+
+*  ************************* PROJECT CSS CONVENTION *************************
+    [Please, to know the conventions in force in this project, go to "general.css", "readme.md" or contact me]
+
+*/
+/*
+* #create at 20-10-2023
+* #last important update by [maruccimauro] at 20/10/2023
+* #last important update by [] at ##-##-####
+*/
+
+/* GENERAL SECTION ************************************
+    [section-hotels.css] BUILDER 
+ *********************************************/
+.section-hotels {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.article-hotels {
+    background-color: rgba(177, 220, 223, 0.116);
+    margin: 1rem 1rem 1rem 1rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid rgba(10, 55, 253, 0.055);
+}
+
+.article-hotels-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-hotels-body-image] BUILDER 
+ *********************************************/
+.article-hotels-body-image-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 450px;
+}
+
+.article-hotels-body-image {
+    width: 450px;
+    height: 350px;
+    margin-left: -1.5rem;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.281);
+    outline: 1px solid black;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.galery-hotel-animation {
+    animation-name: animation-galery-hotel-on-click;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: 1;
+}
+
+@keyframes animation-galery-hotel-on-click {
+    0% {
+        opacity: 25%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.article-hotels-body-image-alternative {
+    top: 0.5rem;
+    width: 100vw;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.article-hotels-body-image-alternative-item:first-child {
+    top: -3rem;
+}
+.article-hotels-body-image-alternative-item:nth-child(2) {
+    top: -2rem;
+}
+.article-hotels-body-image-alternative-item:nth-child(3) {
+    top: -3rem;
+}
+.article-hotels-body-image-alternative-item {
+    cursor: var(--cursor-anchor);
+    height: 100%;
+    width: 30%;
+    border: 4px solid white;
+    outline: 1px solid rgba(0, 0, 0, 0.432);
+    border-radius: 15%;
+    position: relative;
+}
+
+/* GENERAL SUB SECTION ************************************
+    [article-hotels-body-information] BUILDER 
+ *********************************************/
+.article-hotels-body-information {
+    flex: 1;
+
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-hotels-body-information-hotels-tittle {
+    margin-top: -2.5rem;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: -3px 4px 1px rgba(0, 0, 0, 0.137);
+    text-align: center;
+    border-top: 0.5rem solid #70b7d648;
+}
+
+.article-hotels-body-information-stars {
+    font-size: 2em;
+    text-align: center;
+}
+.article-hotels-body-information-stars span {
+    font-size: 2em;
+    color: rgb(255, 166, 0);
+    text-shadow: -3px 4px 1px rgba(255, 166, 0, 0.315);
+}
+
+.article-hotels-body-information-lower {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.article-hotels-body-information-country {
+    font-family: "special";
+    font-size: 3rem;
+    margin: 0px 0px 1rem 1rem;
+}
+
+.article-hotels-body-information-city {
+    font-family: "special";
+    font-size: 3rem;
+    margin: 0px 0px 1rem 3rem;
+}
+
+.article-hotels-anchor {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
+
+    text-align: center;
+    font-size: 1.5rem;
+}
+.article-hotels-anchor:hover {
+    color: rgba(4, 49, 247, 0.774);
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.288);
+}
+/* 
+.article-hotels-body-information-calification-punctuation {
+}
+.article-hotels-body-information-calification {
+}
+*/
+
+/* GENERAL SUB SECTION ************************************
+    [article-hotels-body-detail] BUILDER 
+ *********************************************/
+
+.article-hotels-body-detail {
+    margin-top: 100px;
+    flex: 0.5;
+    height: 350px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    text-indent: 1rem;
+    font-weight: bold;
+    font-family: "detail";
+    overflow: scroll;
+    color: rgba(19, 17, 68, 0.77);
+}
+
+/* NOT STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+@media screen and (max-width: 1400px) {
+    .article-hotels-body-detail {
+        flex: 1.5;
+    }
+    .article-hotels-body-information {
+        flex: 0.5;
+    }
+    .article-hotels-body-information-hotels-tittle {
+        text-shadow: none;
+        font-size: 2rem;
+    }
+
+    .article-hotels-body-information-stars {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .article-hotels-body-information-stars span {
+        font-size: 2rem;
+    }
+
+    .article-hotels-body-information-country {
+        font-size: 2rem;
+    }
+
+    .article-hotels-body-information-city {
+        font-size: 2rem;
+    }
+}
+
+/* STANDARD MEDIAQUERY ************************************
+
+ *********************************************/
+@media screen and (min-width: 1025px) {
+}
+
+@media (max-width: 1024px) {
+    .section-hotels {
+        padding-right: 1rem;
+    }
+
+    .article-hotels-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-hotels {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .article-hotels-body-image-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 1rem;
+    }
+
+    .article-hotels-body-image {
+        width: 80vw;
+        height: 60vw;
+        margin-left: 0rem;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+    }
+
+    .article-hotels-body-image-alternative {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .article-hotels-body-image-alternative-item {
+        margin: 3rem 0.5rem 1rem 0.5rem;
+
+        width: 25vw;
+        height: 19vw;
+    }
+}
+
+@media (max-width: 412px) {
+    .article-hotels-body-information-hotels-tittle {
+        font-size: 1rem;
+    }
+
+    .article-hotels-body-information-country {
+        font-size: 1rem;
+        margin: 0px 0px 1rem 0rem;
+    }
+
+    .article-hotels-body-information-city {
+        font-size: 1rem;
+        margin: 0rem;
+    }
+    .article-hotels-body-detail {
+        padding-right: 3px;
+    }
+
+    .article-hotels-body-information-stars {
+        font-size: 1rem;
+    }
+    .article-hotels-body-information-stars span {
+        font-size: 1rem;
+    }
+    .article-hotels-body-image-container {
+        width: 90vw;
+        height: 90vw;
+        margin-left: 1rem;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .article-hotels-body-image {
+        width: 90vw;
+        height: 90vw;
+        margin-left: 0rem;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+    }
+
+    .article-hotels-body-image-alternative {
+        width: 90vw;
+        margin-bottom: 1rem;
+    }
+
+    .article-hotels-body-image-alternative-item {
+        position: static;
+        width: 20vw;
+        height: 15vw;
+        margin-top: 1rem;
+    }
+    .article-hotels-body-image-container {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .article-hotels-body-information {
+        height: 100vw;
+        margin-top: 12vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
