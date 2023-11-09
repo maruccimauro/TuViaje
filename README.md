@@ -2,7 +2,14 @@
 <p style="margin: 0;">Last important update at 05/10/2023 by MARUCCI MAURO.</p>
 <p>::Markdown format::</p>
 <br>
+Project approach and resolution :
 
+
+["(TODO ACERCA DEL PROYECTO)"](https://drive.google.com/drive/u/0/folders/1OZ_z4gT0TinKceevRDhMQChdB0SIS25h).
+<br>
+<br>
+<br>
+<br>
 # Welcome to CODO a CODO 4.0 proyect
 
 ![Tu Viaje](https://img.shields.io/github/stars/maruccimauro/tu-viaje.svg)
